@@ -16,6 +16,7 @@ public class Array {
         int marks[] = {97,98,56};
 
         for (int i = 0; i < 3; i++) {
+            System.out.println("");
             System.out.println(marks[i]);
         }
     }
