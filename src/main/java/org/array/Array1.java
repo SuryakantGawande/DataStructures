@@ -1,6 +1,6 @@
-package org.example;
+package org.array;
 
-public class Array {
+public class Array1 {
     public static void main(String[] args) {
 
         int users[] = new int[3];
