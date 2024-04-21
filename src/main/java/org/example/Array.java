@@ -3,14 +3,14 @@ package org.example;
 public class Array {
     public static void main(String[] args) {
 
-//        int marks[] = new int[3];
-//        marks[0] = 97;
-//        marks[1] = 70;
-//        marks[2] = 80;
+        int users[] = new int[3];
+       users[0] = 97;
+       users[1] = 70;
+        users[2] = 80;
 
-//        System.out.println(marks[0]);
-//        System.out.println(marks[1]);
-//        System.out.println(marks[2]);
+        System.out.println(users[0]);
+        System.out.println(users[1]);
+        System.out.println(users[2]);
 
 
         int marks[] = {97,98,56};
