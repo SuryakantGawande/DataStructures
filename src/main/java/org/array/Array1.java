@@ -1,23 +1,14 @@
 package org.array;
 
 public class Array1 {
-    public static void main(String[] args) {
-
-        int users[] = new int[3];
-       users[0] = 97;
-       users[1] = 70;
-        users[2] = 80;
-
-        System.out.println(users[0]);
-        System.out.println(users[1]);
-        System.out.println(users[2]);
-
-
-        int marks[] = {97,98,56};
-
-        for (int i = 0; i < 3; i++) {
-
-            System.out.println(marks[i]);
-        }
-    }
-}
+    public static void main(String args[]){
+        int a[]=new int[5];//declaration and instantiation
+        a[0]=10;//initialization
+        a[1]=20;
+        a[2]=70;
+        a[3]=40;
+        a[4]=50;
+//traversing array
+        for(int i=0;i<a.length;i++)
+            System.out.println(a[i]);
+    }}
