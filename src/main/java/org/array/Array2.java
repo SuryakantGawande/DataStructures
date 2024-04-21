@@ -8,7 +8,6 @@ public class Array2 {
         System.out.println("Enter Size of Array:");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-
         int numbers[] = new int[size];
 
         System.out.println("Arrays Input:");
