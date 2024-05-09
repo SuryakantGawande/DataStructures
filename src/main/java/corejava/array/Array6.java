@@ -1,4 +1,4 @@
-package org.array;
+package corejava.array;
 
 public class Array6 {
     public static void main(String[] args) {

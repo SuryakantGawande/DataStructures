@@ -1,4 +1,4 @@
-package org.array;
+package corejava.array;
 //Java Program to illustrate the use of multidimensional array
 public class Array4 {
         public static void main(String args[]){
