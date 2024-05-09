@@ -1,4 +1,4 @@
-package org.array;
+package corejava.array;
 
 public class Array3 {
     //Java Program to print the array elements using for-each loop
