@@ -8,7 +8,7 @@ public class Simple {
     }
 
     public static void main(String args[]){
-        System.out.println("example");
+        System.out.println("oops");
 
         int data =50;// instance variable
 

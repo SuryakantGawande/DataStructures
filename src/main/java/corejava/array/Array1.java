@@ -1,5 +1,7 @@
 package corejava.array;
 
+import java.util.Arrays;
+
 public class Array1 {
     public static void main(String args[]) {
         int a[] = new int[5];//declaration and instantiation
@@ -12,5 +14,6 @@ public class Array1 {
         for (int j : a) System.out.println(j);
         System.out.println("done");
         System.out.println("done 2");
+        System.out.println(""+ Arrays.toString(a));
     }
 }

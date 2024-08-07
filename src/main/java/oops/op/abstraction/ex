@@ -1,0 +1,53 @@
+// Abstract class representing an Animal
+abstract class Animal {
+    // Abstract method to make sound
+    public abstract void makeSound();
+
+    // Concrete method
+    public void sleep() {
+        System.out.println("Animal is sleeping");
+    }
+}
+
+// Interface representing a Domesticatable animal
+interface Domesticatable {
+    void train();
+}
+
+// Concrete class representing a Dog
+class Dog extends Animal implements Domesticatable {
+    // Implementation of makeSound() method for Dog
+    public void makeSound() {
+        System.out.println("Dog barks");
+    }
+
+    // Implementation of train() method for Dog
+    public void train() {
+        System.out.println("Dog is being trained");
+    }
+}
+
+// Concrete class representing a Cat
+class Cat extends Animal {
+    // Implementation of makeSound() method for Cat
+    public void makeSound() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal dog = new Dog();
+        Animal cat = new Cat();
+
+        dog.makeSound();
+        dog.sleep();
+
+        cat.makeSound();
+        cat.sleep();
+
+        if (dog instanceof Domesticatable) {
+            ((Domesticatable) dog).train();
+        }
+    }
+}
